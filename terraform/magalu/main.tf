@@ -10,6 +10,7 @@ terraform {
 variable "api_key" {
   type        = string
   description = "Magalu Cloud API Key"
+  sensitive   = true
 }
 
 provider "mgc" {
